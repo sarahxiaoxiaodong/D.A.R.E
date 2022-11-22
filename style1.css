@@ -1,0 +1,26 @@
+#banner {
+    display:flex;
+}
+
+#center {
+    text-align: center;
+}
+
+.red {
+    color: rgb(156, 0, 0);
+}
+
+#bannerLeft {
+    text-align: left;
+    width: 350px;
+}
+
+#bannerRight {
+    text-align: right;
+    width: 350px;
+}
+
+#link {
+    text-align: center;
+}
+
