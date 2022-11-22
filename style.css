@@ -5,3 +5,13 @@
 .red {
     color: rgb(156, 0, 0);
 }
+
+#banner1 {
+    text-align: left;
+    width: 500px;
+}
+
+#banner2 {
+    text-align: right;
+    width: 500px;
+}
