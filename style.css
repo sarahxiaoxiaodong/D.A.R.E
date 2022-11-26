@@ -23,3 +23,35 @@
 #link {
     text-align: center;
 }
+    label{
+        position: absolute;
+        width: 45px;
+        height: 22px;
+        right: 20px;
+        top: 20px;
+        border: 2px solid;
+        border-radius: 20px;
+    }
+    label:before{
+        position: absolute;
+        content: '';
+        width: 19px;
+        height: 18px;
+        left: 0px;
+        border-radius: 50%;
+        background: #000;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    label.active:before{
+        left: 24px;
+        background: #fff;
+    }
+    body.night{
+        background: #000;
+        color: #fff;
+    }
+    @media screen and (min-width:900px) {
+      .respon{
+        display: flex;
+      }

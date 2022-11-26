@@ -2,15 +2,12 @@
 <html lang="en">
 <head>
 <title>D.A.R.E</title>
-<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<div>
-        <a href="essaydare1.html">
-            <button type="button" class="btn btn-dark">Dark mode</button>
-        </a>
     <div id="banner">
         <img id="bannerRight" src="Images/12txm9zyemb71.png" alt="image">
         <div id="center">
@@ -40,6 +37,17 @@
 			D.A.R.E isn’t just all about drugs. It teaches about the importance of communication and how to handle different situations. I will undoubtedly make great use of the things I’ve mustered in D.A.R.E to acquire more adequate communication skills and find the right choices.
 		</p>
 	</div>
+	<header>
+        <label  id="dark-change"></label>
+      </header>
+      <script>
+        var content = document.getElementsByTagName('body')[0];
+        var darkMode = document.getElementById('dark-change');
+        darkMode.addEventListener('click', function(){
+            darkMode.classList.toggle('active');
+            content.classList.toggle('night');
+        })
+    </script>
 </body>
 </html>
 <!DOCTYPE html>
